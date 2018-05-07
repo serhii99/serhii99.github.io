@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.box {
+    height: 20vw;
+    width: 20vh;
+    background-color: cadetblue;
+    margin: 40vh auto;
+    transition: 1.5s;
+}
+
+.box:hover {
+    background-color: darkgoldenrod;
+    transform: scale(1.5);
+    cursor: pointer;
+}
